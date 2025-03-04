@@ -12,4 +12,14 @@
     box-sizing: border-box;
 }
 
-header {}
+.nav_element {
+    color: rgb(0, 0, 172);
+    cursor: pointer;
+    height: 100% !important;
+
+}
+
+.nav_element:hover {
+    color: var(--c-primary);
+    border-bottom: 4px solid var(--c-primary);
+}
