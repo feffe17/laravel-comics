@@ -1,7 +1,11 @@
 <header>
-    <nav>
-        <ul>
-            <li><a href="{{ route('comics.index') }}">Fumetti</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <img src="{{ asset('img/dc-logo.png') }}" alt="DC Comics Logo">
+        <nav>
+            <ul>
+                
+            </ul>
+        </nav>
+    </div>
+    
 </header>
