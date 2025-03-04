@@ -16,10 +16,20 @@
     color: rgb(0, 0, 172);
     cursor: pointer;
     height: 100% !important;
+    border-bottom: 4px solid transparent;
 
 }
 
 .nav_element:hover {
     color: var(--c-primary);
     border-bottom: 4px solid var(--c-primary);
+}
+
+.jumbotron {
+    background-image: url("../../public/img/jumbotron.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: center;
+    height: 300px;
+    width: 100%;
 }
