@@ -7,6 +7,10 @@
     --bg-main: #1c1c1c;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -67,4 +71,46 @@
     // background-position: center;
     height: 300px;
     width: 100vw;
+}
+
+.bg-main {
+    background-color: var(--bg-main);
+    position: relative;
+}
+
+.page_tag {
+    background-color: var(--c-primary);
+    width: fit-content;
+    padding: .7rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.moved {
+    position: relative;
+    top: -1.5rem;
+    left: 2rem;
+    z-index: 1;
+}
+
+.ratio1_1 {
+    aspect-ratio: 1 / 1;
+}
+
+.comic_bg {
+    background-size: cover;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.icons_section {
+    background-color: var(--c-primary);
+}
+
+.commercial_desc {
+    color: white;
+    font-weight: 700;
 }
