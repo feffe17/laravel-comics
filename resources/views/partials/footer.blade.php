@@ -1,7 +1,7 @@
-<footer>
+<footer class="position-relative">
     <div class="link_section">
         <div class="container d-flex position-relative">
-            <div class="col-6 d-flex flex-wrap">
+            <div class="col-6 d-flex flex-wrap pt-5">
                 <div class="list d-flex flex-column mx-2 px-2 fs-5 text-secondary">
                         <h3 class="py-2 list-title text-light">DC COMICS</h3>
                         <div class="list-item">Character</div>
@@ -44,6 +44,14 @@
                 </div> --}}
             </div>
             <div class="col-6 logo-bg ratio1_1" style="background-image: url('img/dc-logo-bg.png')"></div>
+        </div>
+    </div>
+    <div class="social_section bg-dark py-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="signBtn">SIGN-UP NOW!</div>
+            <div class="social-icons d-flex align-items-center">
+                
+            </div>
         </div>
     </div>
 </footer>

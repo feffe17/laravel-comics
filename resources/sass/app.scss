@@ -122,7 +122,7 @@ footer {
 }
 
 .list {
-    height: fit-content;
+    height: min-content;
 }
 
 .logo-bg {
@@ -130,4 +130,25 @@ footer {
     z-index: 1;
     position: relative;
     top: -3rem;
+}
+
+.social_section {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+}
+
+.signBtn {
+    border: 2px solid var(--c-primary);
+    color: white;
+    font-weight: 600;
+    padding: .8rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.signBtn:hover {
+    background-color: var(--c-primary);
+    color: white;
 }
