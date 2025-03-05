@@ -50,8 +50,22 @@
         <div class="container d-flex justify-content-between align-items-center">
             <div class="signBtn">SIGN-UP NOW!</div>
             <div class="social-icons d-flex align-items-center">
-                
-            </div>
+                <p class="mb-0 mx-2">FOLLOW US</p>
+                <div class="social-icon mx-2">
+                    <img src="{{ asset('img/footer-facebook.png') }}" alt="Facebook" width="30px">
+                </div>
+                <div class="social-icon mx-2">
+                    <img src="{{ asset('img/footer-twitter.png') }}" alt="Facebook" width="30px">
+                </div>
+                <div class="social-icon mx-2">
+                    <img src="{{ asset('img/footer-youtube.png') }}" alt="Facebook" width="30px">
+                </div>
+                <div class="social-icon mx-2">
+                    <img src="{{ asset('img/footer-pinterest.png') }}" alt="Facebook" width="30px">
+                </div>
+                <div class="social-icon mx-2">
+                    <img src="{{ asset('img/footer-periscope.png') }}" alt="Facebook" width="30px">
+                </div>
         </div>
     </div>
 </footer>
