@@ -114,3 +114,20 @@ html {
     color: white;
     font-weight: 700;
 }
+
+footer {
+    background-image: url("../../public/img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list {
+    height: fit-content;
+}
+
+.logo-bg {
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+    top: -3rem;
+}
